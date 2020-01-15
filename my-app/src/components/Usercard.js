@@ -13,7 +13,7 @@ export default function Usercard(props) {
             <CardTitle>Name: {props.user.name}</CardTitle>
             <CardSubtitle>Github: {props.user.login}</CardSubtitle>
             <CardText>followers: {props.user.followers}, following: {props.user.following}</CardText>
-            <a href={props.user.html_url}><Button color="info">Github Profile</Button></a>
+            <a href={props.user.html_url} target="_blank" rel="noopener noreferrer"><Button color="info">Github Profile</Button></a>
             </CardBody>
         </Card>
          </div>

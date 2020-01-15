@@ -5,14 +5,12 @@ import FollowerCard from './components/FollowerCard.js';
 import './App.css';
 
 class App extends React.Component {
-  // constructor, super, etc, are all still built into this class, just under the hood
   constructor() {
     super();
     this.state = {
       user: {},
       followers: [],
     }
-    
   }
 
   componentDidMount() {
